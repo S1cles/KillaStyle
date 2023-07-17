@@ -10,16 +10,10 @@
   }
 
   .borderForm{
-    border:3px solid;
+    border:2px solid;
   }
 Input{
-  border: 2px solid black!important;
-  text-align: center;
-  padding: 25px !important;
-  border-left: none !important;
-  border-right: none !important;
-  border-top: none !important;
-  border-radius: 0 !important;
+  align-self: center !important;
   font-size: large !important;
   font-weight: bold !important;
 }

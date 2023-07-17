@@ -1,7 +1,7 @@
 /* eslint-disable react-hooks/rules-of-hooks */
 import { useState } from "react";
 import { theme1, theme2 } from "../helpers/theme";
-import Registration from "../components/Registration";
+import SignUp from "../components/SignUp";
 import Login from "../components/Login";
 import {
   Box,
@@ -29,7 +29,7 @@ const Authentication = () => {
         maxW="2xl"
         bg={theme.colors.primary[1]}
         padding={10}
-        borderRadius={20}
+        borderRadius={55}
         borderColor={theme.colors.primary[2]}
         className="borderForm"
       >
@@ -47,7 +47,7 @@ const Authentication = () => {
             onClick={handleSwitchChange}
             color={'#7DD2E6'}
           >
-            Registration
+            Sign Up
           </Text>
           <Switch
             colorScheme="teal"
@@ -63,7 +63,7 @@ const Authentication = () => {
             onClick={handleSwitchChange}
             color={'#81E6D9'}
           >
-            Login
+            Log In
           </Text>
         </Box>
 
@@ -73,7 +73,7 @@ const Authentication = () => {
           maxHeight={isLoginActive ? "0" : "1000px"}
           overflow="hidden"
         >
-          <Registration />
+          <SignUp />
         </Box>
 
         <Box
