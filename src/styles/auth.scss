@@ -1,0 +1,25 @@
+.show {
+    opacity: 1;
+    transition: opacity 0.3s ease-in;
+  }
+  
+  .hide {
+    opacity: 0;
+    transition: opacity 0.3s ease-out;
+    pointer-events: none; /* Отключает взаимодействие с невидимыми элементами */
+  }
+
+  .borderForm{
+    border:3px solid;
+  }
+Input{
+  border: 2px solid black!important;
+  text-align: center;
+  padding: 25px !important;
+  border-left: none !important;
+  border-right: none !important;
+  border-top: none !important;
+  border-radius: 0 !important;
+  font-size: large !important;
+  font-weight: bold !important;
+}
